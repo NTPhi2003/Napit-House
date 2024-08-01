@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Đặt bàn</title>
+</head>
+<link rel="icon" type="image/png" href="./image/favicon.png">
+
+<link rel="stylesheet" href="./css/header_footer.css">
+<link rel="stylesheet" href="./css/booking.css">
+<link rel="stylesheet" href="./css/toast.css">
+<body style="background-color: #f8f8f6;">
+    <!--Đây là header-->
+    <div class="header_container">
+        <div id="header">
+            <div class="topbar">
+                <div class="topbar_infor"> 
+                    <div class="topbar_infor-phone">
+                        <img class="topbar_infor-icon" src="./image/phone_trắng.png" alt=""  >(+84) 334455660
+                    </div>
+                    <div class="topbar_infor_mail">
+                         <img class="topbar_infor-icon" src="./image/mail_trắng.png">napithouse@gmail.com
+                    </div>  
+                    <div class="mxh-logo">
+                        <img class="topbar_social" src="./image/twitter_trắng.png" alt="">
+                        <img class="topbar_social" src="./image/fb_trắng.png">
+                        <img class="topbar_social" src="./image/ins_trắng.png" >
+                        <img class="topbar_social" src="./image/git_trắng.png">
+                    </div> 
+                </div>
+            </div>
+            <div  class="header-white">
+                <a href="trangchu.html">
+                    <img class="logoheader" src="./image/logo_header.png" >
+                </a>
+                <div class="navbar">
+                    <!-- <div class="navbar_button"></div> -->
+                    <a href="trangchu.html" class="navbar_button">Trang chủ</a>
+                    <a href="vechungtoi.html" class="navbar_button">Về chúng tôi</a>
+                    <a href="thucdon.html" class="navbar_button">Thực đơn</a>
+                    <a href="baiviet.html" class="navbar_button" style="margin-right: 0.8rem;">Bài viết</a>
+                    <a href="lienhe.html" class="navbar_button">Liên hệ</a>
+                    <a href="booking.html" class="navbar_button navbar_bookbutton">ĐẶT BÀN NGAY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Kết thúc header -->
+
+    <!-- Phần giữa -->
+    <div id="content">
+        <div id="toast"></div>
+        <div class="form_container" >
+            <div class="map"></div>
+
+            <h1 class="title">Đặt Bàn</h1>
+            <form class="form">
+                <table class="table">
+                    <tr>
+                        <td>Ngày(<span style="color: red;">*</span>)</td>
+                        <td>Thời gian(<span style="color: red;">*</span>)</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="date" placeholder="dd/mm/yyyy" required></td>
+                        <td><input type="time" id ="time" placeholder="Chọn giờ" required></td>
+                    </tr>
+                    <tr>
+                        <td>Họ và tên(<span style="color: red;">*</span>)</td>
+                        <td>Số điện thoại(<span style="color: red;">*</span>)</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name" placeholder="Tên của bạn" size="20" required></td>
+                        <td><input type="number" id ="phone" placeholder="Số điện thoại của bạn" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Số lượng(<span style="color: red;">*</span>)</td> 
+                        <td>Email</td>  
+                    </tr>
+                    <tr>
+                        <td><input type="number" id ="people" placeholder="Số người" min="1" required></td>
+                        <td><input type="email" id ="email" placeholder="Nhập email của bạn"></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ghi chú</td> 
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="" id="note" cols="95" rows="8"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" id="datban">Đặt bàn</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <!--Đây là footer-->
+    <div id="footer_container">
+        <div id="footer">
+            <div class="col1">
+                <img src="./image/logo_footer.png" alt="" class="footer-logo">
+                <hr class="footer-hr">
+                <div class="col1-text">
+                    Địa chỉ: 1 Lê Thị Hồng Gấm, <br>Phường Nguyễn Thái Bình, Quận 1, TP.HCM<br>SĐT: (+84) 334455660<BR>Email: napithouse@gmail.com
+                </div>
+                <div class="footer-mxh-logo">
+                    <img class="footer_social" src="./image/icon_twitter.png" alt="">
+                    <img class="footer_social" src="./image/icon_fb.png">
+                    <img class="footer_social" src="./image/icon_ins.png" >
+                    <img class="footer_social" src="./image/icon_git.png">
+                </div> 
+            </div>
+            <div class="col2">
+                <div class="col2-title">Các Trang</div>
+                <a href="trangchu.html" class="footer-nav footer-nav1">Trang chủ</a>
+                <a href="vechungtoi.html" class="footer-nav footer-nav2">Về chúng tôi</a>
+                <a href="thucdon.html" class="footer-nav footer-nav1">Thực đơn</a>
+                <a href="baiviet.html" class="footer-nav footer-nav1">Bài viết</a>
+                <a href="booking.html" class="footer-nav footer-nav1">Đặt bàn</a>
+                <a href="lienhe.html" class="footer-nav footer-nav1">Liên hệ</a>
+                <a href="trangchu.html" class="footer-nav footer-nav1">Giao hàng</a>
+            </div>
+            <div class="col3">
+                <div class="col3-title">Hỗ trợ giao hàng</div>
+                <div class="footer-delivery">
+                    <img src="./image/grabfood.png" alt="" class="delivery-img">
+                    <img src="./image/loship.png" alt="" class="delivery-img">
+                    <img src="./image/baemin.png" alt="" class="delivery-img">
+                </div>
+            </div>
+            <div class="col4">
+                <div class="col4-title">Theo dõi chúng tôi trên instagram</div>
+                <div class="footer-follow">
+                    <img src="./image/mask-group.png" alt="" class="follow-img">
+                    <img src="./image/khoaitaychien.png" alt="" class="follow-img">
+                    <img src="./image/mask-group-p4y.png" alt="" class="follow-img">
+                    <img src="./image/mask-group-Zh3.png" alt="" class="follow-img">
+
+                </div>
+            </div>
+        </div>
+        <div class="copry-righted">Copyright © 2023 Napit Vietnam.</div>
+    </div>
+    <!-- Kết thúc footer -->
+    
+    <!-- contact-icon -->
+    <a href="lienhe.html">
+        <img src="./image/message-icon.png" alt="" class="message">
+    </a>
+
+    <script src="./js/scrolling.js"></script>
+    <script src="./js/booking.js"></script>
+</body>
+</html>

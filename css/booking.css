@@ -1,0 +1,101 @@
+#content {
+    height: 1000px;
+    overflow-x: hidden;
+    background-color: #f8f8f6;
+    padding-top: 148px;
+}
+.title{
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+.form_container{
+    z-index: 2;
+    font-size: larger;
+    position: relative;
+}
+.form{
+    box-sizing: border-box;
+    padding:10px;
+    width: 55%;
+    border: solid 0.1rem #ffffff;
+    background-color: #ffffff;
+    border-radius: 1.6rem;
+    font-weight: bolder;
+    font-size: 16px;
+    box-shadow: 0 0.2979rem 5.9574rem rgba(0, 0, 0, 0.0799999982);
+    margin-left: 22%;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+}
+
+
+.table input { 
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(176, 174, 174);
+    width: 20rem;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.table textarea{
+    width: 92%;
+    border-radius: 2rem ;
+    border: 1px solid rgb(176, 174, 174);
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-family: Roboto;
+}
+
+.table button{
+    cursor: pointer;
+    background-color: #ad343e;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 1px solid #ad343e;
+    width: 98%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Roboto;
+    transition: all 0.4s ease;
+}
+
+.table button:hover {
+    background-color: #ED5700;
+    color: white;
+    border: 1px solid #ED5700;
+
+}
+
+.map{
+    margin-top: 20%;
+    background-image: url("../image/bando.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+
+

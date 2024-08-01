@@ -1,0 +1,129 @@
+
+/* BẮT ĐẦU BODY */
+
+#content {
+    overflow-x: hidden;
+    background-color: #f8f8f6;
+    padding-top: 148px;
+    /* height: 980px; */
+}
+.title{
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+
+
+
+
+.form_container{
+    z-index: 2;
+    font-size: larger;
+    position: relative;
+    padding-bottom: 50px;
+}
+.form{
+    padding:10px;
+    width: 55%;
+    border-radius: 1.6rem;
+    font-weight: bolder;
+    font-size: medium;
+    margin-left: 22%;
+    box-sizing: border-box;
+    border: solid 0.1rem #ffffff;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0.2979rem 5.9574rem rgba(0, 0, 0, 0.0799999982);
+    
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 30PX;
+}
+
+#name,#email { 
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(176, 174, 174);
+    width: 20rem;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#title{
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(176, 174, 174);
+    width: 43rem;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.table textarea{
+    width: 92%;
+    border-radius: 2rem ;
+    border: 1px solid rgb(176, 174, 174);
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.table button{
+    cursor: pointer;
+    background-color: #ad343e;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 1px solid #ad343e;
+    width: 98%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Roboto;
+    transition: all 0.4s ease;
+}
+
+.table button:hover {
+    background-color: #ED5700;
+    color: white;
+    border: 1px solid #ED5700;
+
+}
+
+.background_info{
+    background-color: white;
+}
+.info{
+    box-sizing: border-box;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    position: relative;
+    left:18%;
+    top: 70%;
+    width: 80%;
+   
+
+}
+
+
+
+/* KẾT THÚC BODY */
+
+
